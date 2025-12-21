@@ -2,7 +2,7 @@ module.exports = {
 	config: {
 		name: "all",
 		version: "1.2",
-		author: "𝑵𝑪-𝑨𝒁𝑨𝑫",
+		author: "NTKhang",//fixed noobCore
 		countDown: 5,
 		role: 1,
 		description: {
