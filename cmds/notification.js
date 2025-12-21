@@ -5,7 +5,7 @@ module.exports = {
 		name: "notification",
 		aliases: ["notify", "noti"],
 		version: "1.8",
-		author: "𝑵𝑪-𝑨𝒁𝑨𝑫",
+		author: "NTKhang",//fixed noobCore
 		countDown: 5,
 		role: 2,
 		description: {
@@ -145,4 +145,4 @@ module.exports = {
 
 		return message.reply(msg.trim());
 	}
-};
+;
