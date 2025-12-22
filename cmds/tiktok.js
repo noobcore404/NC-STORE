@@ -7,7 +7,7 @@ module.exports = {
 		name: "tiktok",
 		aliases: ["tt", "tok", "tktk"],
 		version: "1.8",
-		author: "𝑵𝑪-𝑨𝒁𝑨𝑫",
+		author: "Azad",
 		countDown: 5,
 		role: 0,
 		description: {
@@ -97,7 +97,7 @@ module.exports = {
 🎞️ Title  : ${title}
 🗣️ Creator: ${author}
 
-👤 Made by: 𝑵𝑪-𝑨𝒁𝑨𝑫
+👤 Made by: Team noobCore
 ━━━━━━━━━━━━━━━━━━━━━`,
 					attachment: fs.createReadStream(filePath)
 				});
