@@ -2,9 +2,9 @@ const axios = require("axios");
 const fs = require("fs");
 const path = require("path");
 
-const cmdsInfoUrl = "https://raw.githubusercontent.com/noobcore404/NoobCore/main/cmdsinfo.json";
-const cmdsUrlJson = "https://raw.githubusercontent.com/noobcore404/NoobCore/main/cmdsurl.json";
-const fontUrl = "https://raw.githubusercontent.com/noobcore404/NoobCore/main/ncsfont.json";
+const cmdsInfoUrl = "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmdsinfo.json";
+const cmdsUrlJson = "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmdsurl.json";
+const fontUrl = "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/ncsfont.json";
 const ITEMS_PER_PAGE = 10;
 
 let fontMap = {};
