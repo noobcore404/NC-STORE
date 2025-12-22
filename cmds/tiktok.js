@@ -6,7 +6,7 @@ module.exports = {
 	config: {
 		name: "tiktok",
 		aliases: ["tt", "tok", "tktk"],
-		version: "1.2",
+		version: "1.8",
 		author: "𝑵𝑪-𝑨𝒁𝑨𝑫",
 		countDown: 5,
 		role: 0,
@@ -14,10 +14,7 @@ module.exports = {
 			en: "Send random TikTok video by search keyword"
 		},
 		category: "media",
-		usePrefix: false,
-		guide: {
-			en: "   {pn} <keyword>\n   Example: {pn} funny"
-		}
+		usePrefix: false
 	},
 
 	langs: {
@@ -41,16 +38,32 @@ module.exports = {
 		const args = body.split(" ").slice(1);
 		return this.handleRun({ message, args, getLang });
 	},
-	
+
 	handleRun: async function ({ message, args, getLang }) {
 		try {
 			const query = args.join(" ");
 			if (!query) return message.reply(getLang("noKeyword"));
 
 			await message.reply(getLang("searching", query));
+			
+			const RAW_URL =
+				"https://raw.githubusercontent.com/noobcore404/NC-STORE/main/NCApiUrl.json";
+			
+			const rawRes = await axios.get(RAW_URL);
+			const rawData =
+				typeof rawRes.data === "string"
+					? JSON.parse(rawRes.data)
+					: rawRes.data;
+
+			const BASE_API = rawData.ncazad;
+
+			if (!BASE_API) {
+				return message.reply("❌ base API not found in RAW JSON");
+			}
 
 			const apiUrl =
-				`https://azadx69x-tiktok-api.vercel.app/tiktok/search?query=${encodeURIComponent(query)}`;
+				`${BASE_API}/tiktok/search?query=${encodeURIComponent(query)}`;
+
 			const { data } = await axios.get(apiUrl);
 
 			if (!data?.list?.length) {
@@ -58,6 +71,7 @@ module.exports = {
 			}
 
 			const random = data.list[Math.floor(Math.random() * data.list.length)];
+
 			const videoUrl = random.play;
 			const title = random.title || "Unknown";
 			const author = random.author?.nickname || "Unknown";
@@ -67,6 +81,7 @@ module.exports = {
 			const writer = fs.createWriteStream(filePath);
 			const response = await axios({
 				url: videoUrl,
+				method: "GET",
 				responseType: "stream"
 			});
 
@@ -76,13 +91,13 @@ module.exports = {
 				await message.reply({
 					body:
 `━━━━━━━━━━━━━━━━━━━━━
-✨ TikTok Video Fetched!
+✅ TikTok Video Fetched!
 ━━━━━━━━━━━━━━━━━━━━━
 🔍 Search : ${query}
 🎞️ Title  : ${title}
-👤 Creator: ${author}
+🗣️ Creator: ${author}
 
-💫 Made by: 𝑵𝑪-𝑨𝒁𝑨𝑫
+👤 Made by: 𝑵𝑪-𝑨𝒁𝑨𝑫
 ━━━━━━━━━━━━━━━━━━━━━`,
 					attachment: fs.createReadStream(filePath)
 				});
