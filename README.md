@@ -33,13 +33,38 @@ made by **Team_NoobCore**
 
 ---
 
-## ⚙️ Command Structure
-- Commands are triggered with a **prefix** (e.g., `!`, `.`, `/`) followed by the command name.  
-- Commands are divided based on **role access**:  
-  - **User (0):** Basic commands and info  
-  - **Moderator (1):** Moderate messages, manage users  
-  - **Admin (2):** Full control, add/remove commands, group management  
-  - **Owner (3):** Bot owner, access to all features  
+## 🛠️ Command Configuration Structure
+
+```javascript
+module.exports = {  
+  config: {  
+    name: "command_name",                // 🔹 Command Name  
+    version: "1.0",
+    team: " team_noobCore",             // 🔸 Version  
+    author: "Team NoobCore",             // 👨‍💻 Developer  
+    role: 4,                             // 🔐 Required Access Level  
+    usePrefix: true,                     // ⛓️ Prefix Requirement  
+    description: "Command Description",   // 📝 Functionality  
+    guide: "Usage Guide",                // 📘 Command Syntax  
+    category: "Utility",                 // 🧰 Function Category  
+    cooldowns: 3                         // ⏳ Execution Delay (seconds)  
+  }  
+};
+```
+
+---
+
+## 🔐 Role Hierarchy System
+
+| Level | Badge | Access Tier            | Description                  |
+|-------|-------|-----------------------|------------------------------|
+| 0     | 👥    | Standard User         | All regular members          |
+| 1     | ⚔️    | Group admin       | Chat administrators          |
+| 2     | 🤖    | Bot admin           | Bot configuration access     |
+| 3     | 💎    | Premium User          | VIP command privileges       |
+| 4     | 👑    | System Developer      | Full system control          |
+
+---
 
 ---
 
