@@ -2,7 +2,7 @@
   <img src="https://files.catbox.moe/mk01q9.jpg" width="100%" style="border-radius:10px;" />
 </div>
 
-# 🤖 NOOBCORE BOT V3
+# 🤖 NOOBCORE BOT V3 COMMAND STORE
 
 **Made by Team_NoobCore**
 
