@@ -12,7 +12,7 @@ Fast • Stable • Community Driven
 ---
 
 ## 📅 Release Date
-Coming Soon
+noobCore v3 messenger bot Coming Soon
 
 ---
 ### 👤 Developers
