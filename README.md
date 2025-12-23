@@ -54,7 +54,7 @@ module.exports = {
 
 ---
 
-## 🔐 Role Hierarchy System
+## 🔐 Role System
 
 | Level | Badge | Access Tier            | Description                  |
 |-------|-------|-----------------------|------------------------------|
