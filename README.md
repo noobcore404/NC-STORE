@@ -40,7 +40,7 @@ module.exports = {
   config: {  
     name: "command_name",                // 🔹 Command Name  
     version: "1.0",
-    team: " team_noobCore",             // 🔸 Version  
+    team: "team_noobCore",             // 🔸 Version  
     author: "Team NoobCore",             // 👨‍💻 Developer  
     role: 4,                             // 🔐 Required Access Level  
     usePrefix: true,                     // ⛓️ Prefix Requirement  
@@ -65,6 +65,23 @@ module.exports = {
 | 4     | 👑    | System Developer      | Full system control          |
 
 ---
+
+- [📝 **Note**](#-note)
+- [🚧 **Requirement**](#-requirement)
+- [📝 **Tutorial**](#-tutorial)
+- [💡 **How it works?**](#-how-it-works)
+- [🔔 **How to get notification when have new update?**](#-how-to-get-notification-when-have-new-update)
+- [🆙 **How to Update**](#-how-to-update)
+- [🛠️ **How to create new commands**](#️-how-to-create-new-commands)
+- [💭 **Support**](#-support)
+- [📚 **Support Languages in source code**](#-support-languages-in-source-code)
+- [📌 **Common Problems**](#-common-problems)
+- [❌ **DO NOT USE THE ORIGINAL UNDERGRADUATE VERSION**](#-do-not-use-the-original-undergraduate-version)
+- [📸 **Screenshots**](#-screenshots)
+- [✨ **Copyright (C)**](#-copyright-c)
+- [📜 **License**](#-license)
+
+<hr>
 
 ---
 
