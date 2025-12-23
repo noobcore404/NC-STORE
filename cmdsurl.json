@@ -1,4 +1,5 @@
 {
   "ncstore": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/ncstore.js",
-  "pfp": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/pfp.js"
+  "pfp": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/pfp.js",
+  "rbg": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/rbg.js"
 }
