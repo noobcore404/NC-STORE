@@ -16,7 +16,7 @@ Coming Soon
 
 ---
 
-## ❖ CREDITS & SPECIAL THANKS
+## ✅ CREDITS & SPECIAL THANKS
 
 ### 👤 Developers
 - NC Xnil  
