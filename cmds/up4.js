@@ -5,8 +5,8 @@ module.exports = {
   config: {
     name: "up4",
     aliases: ["4", "upt4"],
-    version: "2.2–premium",
-    author: "Azad",
+    version: "2.2",
+    author: "NC-AZAD",
     countDown: 5,
     role: 0,
     shortDescription: "system uptime",
