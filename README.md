@@ -47,6 +47,30 @@ module.exports = {
     guide: "Usage Guide",  // 📘 Command Syntax  
     category: "Utility",   // 🧰 Function Category  
     cooldowns: 3           // ⏳ Execution Delay (seconds)  
+  }
+
+
+
+  
+//onStart update 
+  ncStart: async function ({ api, event, args, message }) {
+    return message.reply("ncStart function");
+  },
+
+//onRely update
+ncReply: async function ({ api, event, args, message }) {
+ // example:
+ global.noobCore.onReply.set(msg.messageID, {
+ 	messageID: msg.messageID,
+ 	commandName,
+ 	// ... and more
+ });
+
+  //onChat update
+  ncPrefix: async function ({ api, event, args, message }) {
+    if (event.body === "hello") {
+      return message.reply("ncPrefix Running");
+    }
   }  
 };
 ```
