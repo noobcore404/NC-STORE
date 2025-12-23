@@ -7,7 +7,7 @@ module.exports = {
 		name: "tiktok",
 		aliases: ["tt", "tok", "tktk"],
 		version: "1.8",
-		author: "Azad",
+		author: "NC-AZAD",
 		countDown: 5,
 		role: 0,
 		description: {
