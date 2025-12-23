@@ -59,6 +59,12 @@
       "author": "NC-Azad",
       "update": "2026-01-01",
       "status": "on"
+    },
+    {
+      "cmd": "notification",
+      "author": "NoobCore Team",
+      "update": "2026-01-01",
+      "status": "on"
     }
   ]
 }
