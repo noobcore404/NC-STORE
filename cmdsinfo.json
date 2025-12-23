@@ -53,6 +53,12 @@
       "author": "𝑵𝑪-𝑺𝑨𝑰𝑴",
       "update": "2026-01-01",
       "status": "on"
+    },
+    {
+      "cmd": "antiout",
+      "author": "NC-Azad",
+      "update": "2026-01-01",
+      "status": "on"
     }
   ]
 }
