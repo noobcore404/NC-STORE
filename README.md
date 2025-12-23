@@ -40,7 +40,7 @@ module.exports = {
   config: {  
     name: "command_name",   // 🔹 Command Name  
     version: "1.0",         // 🔸 Version  
-    author: "Team NoobCore" // 👨‍💻 Developer  
+    author: "Team NoobCore", // 👨‍💻 Developer  
     role: 3,                // 🔐 Required Access Level  
     usePrefix: true,      // ⛓️ Prefix Requirement  
     description: "Command Description",  // 📝 Functionality  
