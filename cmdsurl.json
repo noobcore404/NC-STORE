@@ -8,5 +8,6 @@
   "pair": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/pair.js",
   "pair2": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/pair2.js",
   "kiss": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/kiss.js",
-  "antiout": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/antiout.js"
+  "antiout": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/antiout.js",
+  "notification": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/notification.js"
 }
