@@ -5,7 +5,7 @@ module.exports = {
 		name: "notification",
 		aliases: ["notify", "noti"],
 		version: "1.8",
-		author: "Team_noobCore",
+		author: "NC-AZAD",
 		countDown: 5,
 		role: 2,
 		description: {
@@ -48,20 +48,17 @@ module.exports = {
 		threadsData,
 		getLang
 	}) {
-		// ===== OWNER CHECK =====
 		const owners = global.GoatBot.config.owner || [];
 		if (!owners.includes(event.senderID)) {
 			return message.reply(getLang("noPermission"));
 		}
-
-		// ===== MESSAGE CHECK =====
+	  
 		if (!args[0]) {
 			return message.reply(getLang("missingMessage"));
 		}
 
 		const { delayPerGroup } = envCommands[commandName];
-
-		// ===== GET ALL GROUP THREADS =====
+	  
 		const allThreads = (await threadsData.getAll()).filter(
 			t =>
 				t.isGroup &&
@@ -69,8 +66,7 @@ module.exports = {
 		);
 
 		message.reply(getLang("sendingNotification", allThreads.length));
-
-		// ===== ATTACHMENTS =====
+	  
 		const attachment = await getStreamsFromAttachment(
 			[
 				...event.attachments,
@@ -84,8 +80,7 @@ module.exports = {
 		let sendSuccess = 0;
 		const sendError = [];
 		const waitingSend = [];
-
-		// ===== SEND TO GROUPS =====
+	  
 		for (const thread of allThreads) {
 			const groupName = thread.threadName || "This group";
 
@@ -112,8 +107,7 @@ module.exports = {
 				});
 			}
 		}
-
-		// ===== CHECK RESULTS =====
+	  
 		for (const sent of waitingSend) {
 			try {
 				await sent.pending;
@@ -131,8 +125,7 @@ module.exports = {
 				}
 			}
 		}
-
-		// ===== SUMMARY =====
+	  
 		let msg = "";
 		if (sendSuccess > 0) {
 			msg += getLang("sentNotification", sendSuccess) + "\n";
