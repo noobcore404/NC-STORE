@@ -3,5 +3,6 @@
   "pfp": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/pfp.js",
   "rbg": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/rbg.js",
   "animesearch": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/animesearch.js",
-  "tiktok": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/tiktok.js"
+  "tiktok": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/tiktok.js",
+  "art": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/art.js"
 }
