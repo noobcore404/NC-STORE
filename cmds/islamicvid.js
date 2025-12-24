@@ -10,11 +10,10 @@ module.exports = {
     author: "NC-AZAD",
     role: 0,
     shortDescription: "Send a random Islamic video",
-    category: "Islamic",
     guide: { en: "{pn}" }
   },
 
-  onStart: async function({ message, api, event }) {
+  ncStart: async function({ message, api, event }) {
     let loadingID;
 
     try {
