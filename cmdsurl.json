@@ -1,15 +1,15 @@
 {
   "ncstore": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/ncstore.js",
   "pfp": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/pfp.js",
-  "rbg": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/rbg.js",
+  "rbg": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/rbg.js",
   "animesearch": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/animesearch.js",
-  "tiktok": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/tiktok.js",
-  "art": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/art.js",
-  "pair": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/pair.js",
-  "pair2": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/pair2.js",
-  "kiss": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/kiss.js",
-  "antiout": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/antiout.js",
+  "tiktok": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/tiktok.js",
+  "art": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/art.js",
+  "pair": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/pair.js",
+  "pair2": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/pair2.js",
+  "kiss": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/kiss.js",
+  "antiout": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/antiout.js",
   "notification": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/notification.js",
   "help": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/help.js",
-  "autodl": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/autodl.js"
+  "autodl": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/autodl.js"
 }
