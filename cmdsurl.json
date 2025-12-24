@@ -11,5 +11,6 @@
   "antiout": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/antiout.js",
   "notification": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/notification.js",
   "help": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/help.js",
-  "autodl": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/autodl.js"
+  "autodl": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/autodl.js",
+  "up": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/up.js"
 }
