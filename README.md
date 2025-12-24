@@ -38,15 +38,16 @@ made by **Team_NoobCore**
 ```javascript
 module.exports = {
   config: {
-    name: "command_name",          // 🔹 Command Name
-    version: "1.0",                // 🔸 Version
-    author: "Team NoobCore",        // 👨‍💻 Developer
-    role: 3,                       // 🔐 Required Access Level
-    usePrefix: true,               // ⛓️ Prefix Requirement
+    name: "command_name",  // 🔹 Command Name
+    version: "1.0",        // 🔸 Version
+    premium: true,         //premium require 
+    author: "Team NoobCore",  // 👨‍💻 Developer
+    role: 3,                  // 🔐 Required Access Level
+    usePrefix: true,          // ⛓️ Prefix Requirement
     description: "Command Description", // 📝 Functionality
-    guide: "Usage Guide",           // 📘 Command Syntax
-    category: "Utility",            // 🧰 Function Category
-    cooldowns: 3                   // ⏳ Cooldown (seconds)
+    guide: "Usage Guide",     // 📘 Command Syntax
+    category: "Utility",      // 🧰 Function Category
+    cooldowns: 3              // ⏳ Cooldown (seconds)
   },
 
   // === onStart to ncStart======
