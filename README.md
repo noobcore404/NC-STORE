@@ -17,7 +17,7 @@ noobCore v3 messenger bot Coming Soon
 ---
 ### 👤 Developers
 
-- NC Xnil  
+- NC XNI6X - (Nil Chowdhury)
 - NC Aryan  
 - NC Saim  
 - NC Fahad  
