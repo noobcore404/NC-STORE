@@ -36,42 +36,52 @@ made by **Team_NoobCore**
 ## 🛠️ Command Configuration Structure
 
 ```javascript
-module.exports = {  
-  config: {  
-    name: "command_name",   // 🔹 Command Name  
-    version: "1.0",         // 🔸 Version  
-    author: "Team NoobCore", // 👨‍💻 Developer  
-    role: 3,                // 🔐 Required Access Level  
-    usePrefix: true,      // ⛓️ Prefix Requirement  
-    description: "Command Description",  // 📝 Functionality  
-    guide: "Usage Guide",  // 📘 Command Syntax  
-    category: "Utility",   // 🧰 Function Category  
-    cooldowns: 3           // ⏳ Execution Delay (seconds)  
-  }
-
-
-
-  
-//onStart update 
-  ncStart: async function ({ api, event, args, message }) {
-    return message.reply("ncStart function");
+module.exports = {
+  config: {
+    name: "command_name",          // 🔹 Command Name
+    version: "1.0",                // 🔸 Version
+    author: "Team NoobCore",        // 👨‍💻 Developer
+    role: 3,                       // 🔐 Required Access Level
+    usePrefix: true,               // ⛓️ Prefix Requirement
+    description: "Command Description", // 📝 Functionality
+    guide: "Usage Guide",           // 📘 Command Syntax
+    category: "Utility",            // 🧰 Function Category
+    cooldowns: 3                   // ⏳ Cooldown (seconds)
   },
 
-//onRely update
-ncReply: async function ({ api, event, args, message }) {
- // example:
- global.noobCore.onReply.set(msg.messageID, {
- 	messageID: msg.messageID,
- 	commandName,
- 	// ... and more
- });
+  // === onStart to ncStart======
+  ncStart: async function ({ api, event, args, message }) {
+    return message.reply(
+      "ncStart function please reply",
+      (err, info) => {
+        if (err) return;
 
-  //onChat update
+        global.noobCore.ncReply.set(info.messageID, {
+          commandName: this.config.name,
+          type: "reply",
+          messageID: info.messageID,
+          author: event.senderID
+        });
+      }
+    );
+  },
+
+  // ==== onReply to ncReply ========
+  ncReply: async function ({ api, event, args, message }) {
+    // only original author can reply
+    const replyData = global.noobCore.ncReply.get(event.messageReply?.messageID);
+    if (!replyData) return;
+    if (replyData.author !== event.senderID) return;
+
+    return message.reply(`You replied: ${event.body}`);
+  },
+
+  // === onChat to ncPrefix ====
   ncPrefix: async function ({ api, event, args, message }) {
-    if (event.body === "hello") {
+    if (event.body === "example") {
       return message.reply("ncPrefix Running");
     }
-  }  
+  }
 };
 ```
 
