@@ -71,6 +71,12 @@
       "author": "NoobCore Team",
       "update": "2026-01-01",
       "status": "on"
+    },
+    {
+      "cmd": "autodl",
+      "author": "nc-xnil",
+      "update": "01-01-26",
+      "status": "on"
     }
   ]
 }
