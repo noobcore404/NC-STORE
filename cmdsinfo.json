@@ -77,6 +77,12 @@
       "author": "nc-xnil",
       "update": "01-01-26",
       "status": "on"
+    },
+    {
+      "cmd": "up",
+      "author": "nc-azad",
+      "update": "01-01-26",
+      "status": "on"
     }
   ]
 }
