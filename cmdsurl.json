@@ -10,5 +10,6 @@
   "kiss": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/kiss.js",
   "antiout": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/antiout.js",
   "notification": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/notification.js",
-  "help": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/help.js"
+  "help": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/help.js",
+  "autodl": "https://raw.githubusercontent.com/noobcore404/NC-STORE/main/cmd/autodl.js"
 }
