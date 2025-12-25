@@ -4,7 +4,7 @@
   "ai-image": "🖼",
   "ai-image-edit": "🎨",
   "anime": "🌸",
-  "box chat": "📦",
+  "boxchat": "📦",
   "chat": "💬",
   "config": "⚙️",
   "contacts admin": "📞",
@@ -30,5 +30,9 @@
   "tools": "🛠",
   "utility": "🧰",
   "wiki": "📚",
-  "market": "🏪"
+  "market": "🏪",
+  "premium": "💎",
+  "creator": "👑",
+  "example": "📓",
+  "entertainment": "🎭"
 }
