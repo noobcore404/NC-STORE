@@ -13,5 +13,6 @@
   "help": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/help.js",
   "autodl": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/autodl.js",
   "up": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/up.js",
-  "acp": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/acp.js"
+  "acp": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/acp.js",
+  "kicked": "https://raw.githubusercontent.com/noobcore404/NC-STORE/refs/heads/main/cmds/kicked.js"
 }
