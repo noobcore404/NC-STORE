@@ -89,6 +89,12 @@
       "author": "Noob Core",
       "update": "01-01-2026",
       "status": "on"
+    },
+    {
+      "cmd": "kicked",
+      "author": "NC-SAIM",
+      "update": "01-01-26",
+      "status": "on"
     }
   ]
 }
