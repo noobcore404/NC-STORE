@@ -15,21 +15,9 @@ Fast • Stable • Community Driven
 noobCore v3 messenger bot Coming Soon
 
 ---
-### 👤 Developers
-
-- NC XNI6X - (Nil Chowdhury)
-- NC Aryan  
-- NC Saim  
-- NC Fahad  
-- NC Azad  
-- NC Tanjil  
-- NC Toshiro  
-
----
 
 ## 🛡️ Community
 **NOOBCORE**  
-made by **Team_NoobCore**
 
 ---
 
